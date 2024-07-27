@@ -1,0 +1,169 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Exo 2", sans-serif;
+}
+
+/* Main container */
+
+.main-container{
+    background-image: url(pics/stars-opacity.0979c1.svg);
+    width: 100%;
+    height: 100vh;
+    background-color: #3c40c6;
+    display: flex;
+    
+    
+}
+
+/* middle container */
+
+.middle-container{
+    max-width: 1170px;
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+   
+}
+
+/* Header container */
+
+.middle-container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-container header a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.middle-container header a:hover{
+    transform: scale(0.95);
+    text-decoration: underline;
+
+}
+
+/* cards middle */
+
+.card-container{
+    margin-top: 10px;
+    gap: 26px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.anchor-div{
+    position: relative;
+    display: flex;
+    background-color: #efdfdf;
+    height: 215px;
+    width: 27.7%;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* back-ground small images */
+
+.back-image1{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/aussi.png);
+}
+
+.back-image2{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/brithish.png);
+}
+
+.back-image3{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/canadaian.png);
+}
+
+.back-image4{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/chinese.png);
+}
+
+.back-image5{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/dutch.png);
+}
+
+.back-image6{
+    border-radius: 20px;
+    height: 82%;
+    width: 88%;
+    background-image: url(pics/french.png);
+}
+
+
+.div-text{
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+    left: 7px;
+    bottom: 2px;
+    position: absolute;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 30%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.first-bar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-bar a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.first-bar a:hover{
+    transform: scale(0.95);
+    text-decoration: underline;
+
+}
+
+@media (max-width: 768px) {
+
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
